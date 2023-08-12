@@ -17,6 +17,11 @@ with values that are relative to a predetermined base unit (for example, g has a
 For each order, the unit context and the value of the order (measure * unit value) are determined. If the contexts AND the values match, 
 the orders are determined to be equal. Otherwise, they are not. 
 
+## Advancements
+Switched information database from an XML file to an Excel spreadsheet for ease of use. 
+Used Python dictionaries to load the database, resulting in increased efficiency. 
+Added methods for analyzing orders involving basic rates (for example, 100 mg/day). 
+
 ## How to use this program
 Use the orders_are_equal method to make comparisons for equality between medical orders. 
 
@@ -31,4 +36,5 @@ The Excel database is meant to be user-friendly and easy to understand, edit, an
 other Expressions. 
 8. For metric units, use exponential notation (e.g, 1.00E+06 instead of 1000000) when denoting Values.
 9. Try to make decimal number Values as precise as possible, as to minimize floating point error when comparing for equality.
-10. Write notes in the dedicated "Notes" column only. 
+10. Write notes in the dedicated "Notes" column only.
+
