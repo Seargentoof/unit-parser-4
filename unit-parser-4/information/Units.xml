@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Units>
+	<unit>
+		<context>unit</context>
+		<value>1</value>
+		<expression>unit</expression>
+		<expression>Unit</expression>
+		<expression>UNIT</expression>
+		<expression>units</expression>
+		<expression>Units</expression>
+		<expression>UNITS</expression>
+	</unit>
+	<unit>
+		<context>unit</context>
+		<value>1e6</value>
+		<expression>million units</expression>
+		<expression>milli units</expression>
+	</unit>
+
+
+	<unit>
+		<context>each</context>
+		<value>1</value>
+		<expression>each</expression>
+	</unit>
+
+
+	<unit>
+		<context>null</context>
+		<value>1</value>
+		<expression>NULL</expression>
+	</unit>
+
+
+	<unit>
+		<context>mass</context>
+		<value>1</value>
+		<expression>g</expression>
+		<expression>gm</expression>
+		<expression>G</expression>
+		<expression>gram</expression>
+	</unit>
+	<unit>
+		<context>mass</context>
+		<value>1e-3</value>
+		<expression>mg</expression>
+		<expression>milligram</expression>
+	</unit>
+	<unit>
+		<context>mass</context>
+		<value>1e-6</value>
+		<expression>microgram</expression>
+		<expression>MCG</expression>
+	</unit>
+	<unit>
+		<context>mass</context>
+		<value>1e-9</value>
+		<expression>nanogram</expression>
+	</unit>
+
+
+	<unit>
+		<context>volume</context>
+		<value>1</value>
+		<expression>l</expression>
+		<expression>L</expression>
+		<expression>liter</expression>
+	</unit>
+	<unit>
+		<context>volume</context>
+		<value>1e-3</value>
+		<expression>cc</expression>
+		<expression>ml</expression>
+		<expression>millilliter(s)</expression>
+		<expression>milliliter(s)</expression>
+	</unit>
+
+
+	<unit>
+		<context>moles</context>
+		<value>1</value>
+		<expression>mol</expression>
+		<expression>mole</expression>
+		<expression>moles</expression>
+	</unit>
+	<unit>
+		<context>moles</context>
+		<value>1e-3</value>
+		<expression>mmol</expression>
+	</unit>
+
+
+	<unit>
+		<context>equivalent</context>
+		<value>1</value>
+		<expression>eq</expression>
+		<expression>EQ</expression>
+		<expression>Eq</expression>
+		<expression>equivalent</expression>
+	</unit>
+	<unit>
+		<context>equivalent</context>
+		<value>1e-3</value>
+		<expression>MEQ</expression>
+	</unit>
+
+
+	<unit>
+		<context>current</context>
+		<value>1</value>
+		<expression>amp</expression>
+	</unit>
+
+
+	<unit>
+		<context>time</context>
+		<value>1</value>
+		<expression>s</expression>
+		<expression>sec</expression>
+		<expression>seconds</expression>
+	</unit>
+	<unit>
+		<context>time</context>
+		<value>60</value>
+		<expression>min</expression>
+		<expression>minute</expression>
+		<expression>minutes</expression>
+	</unit>
+	<unit>
+		<context>time</context>
+		<value>3600</value>
+		<expression>h</expression>
+		<expression>hr</expression>
+		<expression>hrs</expression>
+		<expression>hour</expression>
+		<expression>hours</expression>
+	</unit>
+	<unit>
+		<context>time</context>
+		<value>86400</value>
+		<expression>day</expression>
+	</unit>
+
+</Units>
