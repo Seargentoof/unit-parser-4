@@ -10,7 +10,7 @@ This project was written in Python 3.
 Unit Parser 4's orders_are_equal method compares two orders at a time. It takes them in the string form "Measure Unit", where "Measure" is 
 a numerical value and "Unit" is an expression of a unit (e.g. g, gram, grams). 
 
-After parsing the two orders, the unit expressions are looked up in a previously created database (a Microsoft Excel spreadsheet). The 
+After parsing the two orders, the unit expressions are looked up in a previously created data file (a Microsoft Excel spreadsheet). The 
 spreadsheet consists of three columns: one with unit expressions (e.g. g, gram, grams), another with contexts (e.g. mass), and the last 
 with values that are relative to a predetermined base unit (for example, g has a value of 1 while mg has a value of 1e-3). 
 
@@ -18,14 +18,14 @@ For each order, the unit context and the value of the order (measure * unit valu
 the orders are determined to be equal. Otherwise, they are not. 
 
 ## Advancements
-Switched information database from an XML file to an Excel spreadsheet for ease of use. 
-Used Python dictionaries to load the database, resulting in increased efficiency. 
+Switched information data file from an XML file to an Excel spreadsheet for ease of use. 
+Used Python dictionaries to load the data file, resulting in increased efficiency. 
 Added methods for analyzing orders involving basic rates (for example, 100 mg/day). 
 
 ## How to use this program
 Use the orders_are_equal method to make comparisons for equality between medical orders. 
 
-The Excel database is meant to be user-friendly and easy to understand, edit, and expand. However, it needs to be as well-standardized as possible. To achieve this, please observe the following conventions:
+The Excel data file is meant to be user-friendly and easy to understand, edit, and expand. However, it needs to be as well-standardized as possible. To achieve this, please observe the following conventions:
 1. One Context and Value allotted to each Expression.
 2. Keep the letter case consistent within an Expression.
 3. Refrain from adding unit Expressions that are equal in a case-insensitive context to prevent duplicate rows.
